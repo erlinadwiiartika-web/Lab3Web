@@ -53,6 +53,8 @@ Lab3Web/
 
 Membuat file lab3_css_dasar.html dengan struktur tag HTML5 standar yang mencakup header, nav, dan div dengan elemen-elemen heading, paragraf, serta link.
 
+<img width="950" height="501" alt="image" src="https://github.com/user-attachments/assets/e8c7ee53-5bce-4a3a-90b5-3adaab882c19" />
+
 2. Menambahkan Internal CSS
 
 Menambahkan tag <style> pada bagian <head> untuk mengatur tampilan font, header, dan tag <h1>.
@@ -75,6 +77,7 @@ Menambahkan tag <style> pada bagian <head> untuk mengatur tampilan font, header,
     color: #6d6a6b;
   }
 </style>
+<img width="950" height="498" alt="image" src="https://github.com/user-attachments/assets/144c23cc-4dc2-4b57-827f-01cfc0617098" />
 
 
 3. Menambahkan Inline CSS
@@ -82,6 +85,7 @@ Menambahkan tag <style> pada bagian <head> untuk mengatur tampilan font, header,
 Penerapan atribut style secara langsung pada elemen HTML:
 
 <p style="text-align: center; color: #ccd8e4;">Paragraf dengan Inline CSS</p>
+<img width="950" height="499" alt="image" src="https://github.com/user-attachments/assets/ae3e8e23-74e1-401f-a053-1ff0d2fb14ed" />
 
 
 4. Membuat CSS Eksternal
@@ -89,6 +93,7 @@ Penerapan atribut style secara langsung pada elemen HTML:
 Membuat file terpisah bernama style_eksternal.css dan menautkannya ke dokumen HTML menggunakan tag <link>:
 
 <link rel="stylesheet" href="style_eksternal.css" type="type/css">
+<img width="950" height="498" alt="image" src="https://github.com/user-attachments/assets/d07cad8b-4e69-47ed-b5dc-a53bd8fc0283" />
 
 
 5. Menambahkan ID dan Class Selector
@@ -96,12 +101,16 @@ Membuat file terpisah bernama style_eksternal.css dan menautkannya ke dokumen HT
 ID Selector (#intro): Digunakan untuk styling khusus bagian intro.
 
 Class Selector (.button, .btn-primary): Digunakan untuk penataan tombol.
+<img width="950" height="500" alt="image" src="https://github.com/user-attachments/assets/9ea7cbe0-2b8d-4574-9943-fca9bd705f1c" />
+
 
 6. Eksperimen Properti CSS & Validasi
 
 Menambahkan property seperti background-color, margin, padding, border-radius, box-shadow, serta efek :hover.
 
 Melakukan validasi CSS pada W3C CSS Validation Service untuk memastikan kode bebas error (Congratulations! No Error Found!).
+<img width="950" height="474" alt="image" src="https://github.com/user-attachments/assets/43eff994-0880-4ac4-a25e-355b659cd098" />
+
 
 ❓ Jawaban Tugas & Pertanyaan Praktikum
 
