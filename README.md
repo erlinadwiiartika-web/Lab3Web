@@ -52,49 +52,35 @@ Lab3Web/
 1. Membuat Dokumen HTML Dasar
 
 Membuat file lab3_css_dasar.html dengan struktur tag HTML5 standar yang mencakup header, nav, dan div dengan elemen-elemen heading, paragraf, serta link.
-<img width="950" height="501" alt="image" src="https://github.com/user-attachments/assets/ceee3f15-db09-4d59-a487-9644dd25eca1" />
+<img width="950" height="501" alt="image" src="https://github.com/user-attachments/assets/454c9e4b-58b2-4b68-a2ab-8bc6981a97bd" />
 
 
 2. Menambahkan Internal CSS
 
-Menambahkan tag <style> pada bagian <head> untuk mengatur tampilan font, header, dan tag <h1>.
+Menambahkan tag 'style' pada bagian 'head' untuk mengatur tampilan font, header, dan tag 'h1'.
 
-<style>
-  body {
-    "font-family: 'Open Sans', sans-serif;
-  }
-  header {
-    min-height: 80px;
-    border-bottom: 1px solid #77CCEF;
-  }
-  h1 {
-    font-size: 24px;
-    color: #0F189F;
-    text-align: center;
-    padding: 20px 10px;
-  }
-  h1 i {
-    color: #6d6a6b;
-  }
-</style>
+<img width="372" height="211" alt="image" src="https://github.com/user-attachments/assets/e58ac0f3-df4b-457e-b47e-68539e6870d1" />
 
-<img width="950" height="498" alt="image" src="https://github.com/user-attachments/assets/5c88f93d-b2e5-49a6-9c2b-8aade1d0ddbf" />
+<img width="950" height="498" alt="image" src="https://github.com/user-attachments/assets/7e267211-634e-41d2-9941-e662f7ff0d4b" />
 
 
 3. Menambahkan Inline CSS
 
 Penerapan atribut style secara langsung pada elemen HTML:
 
-<p style="text-align: center; color: #ccd8e4;">Paragraf dengan Inline CSS</p>
-<img width="950" height="499" alt="image" src="https://github.com/user-attachments/assets/f710ad28-a2b4-43d7-8b39-0daee24daa61" />
+<img width="388" height="24" alt="image" src="https://github.com/user-attachments/assets/dedbc836-0f12-408a-8de5-0b2c74ecadd3" />
+
+<img width="950" height="499" alt="image" src="https://github.com/user-attachments/assets/1c00f693-c468-4e37-9b3f-951aee377b60" />
+
 
 
 4. Membuat CSS Eksternal
 
 Membuat file terpisah bernama style_eksternal.css dan menautkannya ke dokumen HTML menggunakan tag <link>:
 
-<link rel="stylesheet" href="style_eksternal.css" type="text/css">
-<img width="950" height="498" alt="image" src="https://github.com/user-attachments/assets/b7469f18-a85d-4b7c-84d2-82ec8bf5d1c7" />
+<img width="383" height="19" alt="image" src="https://github.com/user-attachments/assets/23f3cedd-4621-4c7a-96e4-cb03afdec8a9" />
+
+<img width="950" height="498" alt="image" src="https://github.com/user-attachments/assets/88e4f966-0157-4a93-a050-0f2494c68b12" />
 
 
 5. Menambahkan ID dan Class Selector
@@ -102,7 +88,7 @@ Membuat file terpisah bernama style_eksternal.css dan menautkannya ke dokumen HT
 ID Selector (#intro): Digunakan untuk styling khusus bagian intro.
 
 Class Selector (.button, .btn-primary): Digunakan untuk penataan tombol.
-<img width="950" height="500" alt="image" src="https://github.com/user-attachments/assets/5649de3f-c1b7-44ff-b234-4c7f28134a2b" />
+<img width="950" height="500" alt="image" src="https://github.com/user-attachments/assets/473c88b3-4ec5-480d-9a8e-b0c9f9185c66" />
 
 
 6. Eksperimen Properti CSS & Validasi
@@ -110,16 +96,16 @@ Class Selector (.button, .btn-primary): Digunakan untuk penataan tombol.
 Menambahkan property seperti background-color, margin, padding, border-radius, box-shadow, serta efek :hover.
 
 Melakukan validasi CSS pada W3C CSS Validation Service untuk memastikan kode bebas error (Congratulations! No Error Found!).
-<img width="950" height="474" alt="image" src="https://github.com/user-attachments/assets/9c1e1c50-9f6b-4c9c-b8b2-122aa306c29e" />
+<img width="950" height="474" alt="image" src="https://github.com/user-attachments/assets/2989229c-a6ce-4ac5-b806-e36004492f58" />
 
 
 ❓ Jawaban Tugas & Pertanyaan Praktikum
 
 1. Jelaskan perbedaan antara h1 {...} dan #intro h1 {...}!
 
-h1 {...} adalah Element Selector. Aturan ini bersifat global dan berlaku untuk seluruh elemen <h1> yang ada di dalam dokumen HTML.
+h1 {...} adalah Element Selector. Aturan ini bersifat global dan berlaku untuk seluruh elemen 'h1' yang ada di dalam dokumen HTML.
 
-#intro h1 {...} adalah Descendant Selector yang lebih spesifik. Aturan ini hanya memengaruhi elemen <h1> yang berada di dalam elemen berkode id="intro". Memiliki nilai specificity lebih tinggi.
+#intro h1 {...} adalah Descendant Selector yang lebih spesifik. Aturan ini hanya memengaruhi elemen 'h1' yang berada di dalam elemen berkode id="intro". Memiliki nilai specificity lebih tinggi.
 
 2. Bagaimana prioritas penerapan jika terdapat Inline, Internal, dan External CSS secara bersamaan?
 
