@@ -1,0 +1,70 @@
+/* CSS Dasar */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    margin: 0;
+}
+
+header {
+    min-height: 80px;
+    border-bottom: 2px solid #77CCEF;
+    background-color: white;
+}
+
+h1 {
+    font-size: 24px;
+    color: #0F189F;
+    text-align: center;
+    padding: 20px 10px;
+    margin: 0;
+}
+
+nav {
+    background: #20A759;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background: #0B6B3A;
+}
+
+#intro {
+    background: #418fb1;
+    border: 1px solid #099249;
+    min-height: 100px;
+    padding: 20px;
+    margin: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+#intro h1 {
+    text-align: left;
+    color: white;
+}
+
+.button {
+    padding: 12px 20px;
+    color: white;
+    display: inline-block;
+    margin: 10px 0;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.btn-primary {
+    background: #E42A42;
+}
+
+.btn-primary:hover {
+    background: #b91f33;
+}
