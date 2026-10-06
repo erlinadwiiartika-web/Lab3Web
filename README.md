@@ -28,7 +28,7 @@ Memahami penggunaan selector sebagai pengontrol tampilan elemen HTML.
 
 Membuat pengaturan CSS pada HTML menggunakan metode Internal, Inline, dan External CSS.
 
-🛠️ Peralatan yang Digunakan
+🛠️️ Peralatan yang Digunakan
 
 Text Editor: Visual Studio Code
 
@@ -52,8 +52,8 @@ Lab3Web/
 1. Membuat Dokumen HTML Dasar
 
 Membuat file lab3_css_dasar.html dengan struktur tag HTML5 standar yang mencakup header, nav, dan div dengan elemen-elemen heading, paragraf, serta link.
+<img width="950" height="501" alt="image" src="https://github.com/user-attachments/assets/ceee3f15-db09-4d59-a487-9644dd25eca1" />
 
-<img width="950" height="501" alt="image" src="https://github.com/user-attachments/assets/e8c7ee53-5bce-4a3a-90b5-3adaab882c19" />
 
 2. Menambahkan Internal CSS
 
@@ -61,7 +61,7 @@ Menambahkan tag <style> pada bagian <head> untuk mengatur tampilan font, header,
 
 <style>
   body {
-    font-family: 'Open Sans', sans-serif;
+    "font-family: 'Open Sans', sans-serif;
   }
   header {
     min-height: 80px;
@@ -77,7 +77,8 @@ Menambahkan tag <style> pada bagian <head> untuk mengatur tampilan font, header,
     color: #6d6a6b;
   }
 </style>
-<img width="950" height="498" alt="image" src="https://github.com/user-attachments/assets/144c23cc-4dc2-4b57-827f-01cfc0617098" />
+
+<img width="950" height="498" alt="image" src="https://github.com/user-attachments/assets/5c88f93d-b2e5-49a6-9c2b-8aade1d0ddbf" />
 
 
 3. Menambahkan Inline CSS
@@ -85,15 +86,15 @@ Menambahkan tag <style> pada bagian <head> untuk mengatur tampilan font, header,
 Penerapan atribut style secara langsung pada elemen HTML:
 
 <p style="text-align: center; color: #ccd8e4;">Paragraf dengan Inline CSS</p>
-<img width="950" height="499" alt="image" src="https://github.com/user-attachments/assets/ae3e8e23-74e1-401f-a053-1ff0d2fb14ed" />
+<img width="950" height="499" alt="image" src="https://github.com/user-attachments/assets/f710ad28-a2b4-43d7-8b39-0daee24daa61" />
 
 
 4. Membuat CSS Eksternal
 
 Membuat file terpisah bernama style_eksternal.css dan menautkannya ke dokumen HTML menggunakan tag <link>:
 
-<link rel="stylesheet" href="style_eksternal.css" type="type/css">
-<img width="950" height="498" alt="image" src="https://github.com/user-attachments/assets/d07cad8b-4e69-47ed-b5dc-a53bd8fc0283" />
+<link rel="stylesheet" href="style_eksternal.css" type="text/css">
+<img width="950" height="498" alt="image" src="https://github.com/user-attachments/assets/b7469f18-a85d-4b7c-84d2-82ec8bf5d1c7" />
 
 
 5. Menambahkan ID dan Class Selector
@@ -101,7 +102,7 @@ Membuat file terpisah bernama style_eksternal.css dan menautkannya ke dokumen HT
 ID Selector (#intro): Digunakan untuk styling khusus bagian intro.
 
 Class Selector (.button, .btn-primary): Digunakan untuk penataan tombol.
-<img width="950" height="500" alt="image" src="https://github.com/user-attachments/assets/9ea7cbe0-2b8d-4574-9943-fca9bd705f1c" />
+<img width="950" height="500" alt="image" src="https://github.com/user-attachments/assets/5649de3f-c1b7-44ff-b234-4c7f28134a2b" />
 
 
 6. Eksperimen Properti CSS & Validasi
@@ -109,7 +110,7 @@ Class Selector (.button, .btn-primary): Digunakan untuk penataan tombol.
 Menambahkan property seperti background-color, margin, padding, border-radius, box-shadow, serta efek :hover.
 
 Melakukan validasi CSS pada W3C CSS Validation Service untuk memastikan kode bebas error (Congratulations! No Error Found!).
-<img width="950" height="474" alt="image" src="https://github.com/user-attachments/assets/43eff994-0880-4ac4-a25e-355b659cd098" />
+<img width="950" height="474" alt="image" src="https://github.com/user-attachments/assets/9c1e1c50-9f6b-4c9c-b8b2-122aa306c29e" />
 
 
 ❓ Jawaban Tugas & Pertanyaan Praktikum
@@ -134,22 +135,11 @@ Deklarasi dari ID Selector yang akan menang dan diterapkan. Hal ini terjadi kare
 
 ⚙️ Cara Mengunggah ke GitHub
 
-# Inisialisasi repository git
 git init
-
-# Menambahkan semua file ke staging area
 git add .
-
-# Melakukan commit
 git commit -m "Praktikum 3 CSS Dasar"
-
-# Mengubah nama branch ke main
 git branch -M main
-
-# Menghubungkan ke remote repository GitHub
 git remote add origin https://github.com/erlinadwiiartika/Lab3Web.git
-
-# Mengunggah perubahan ke GitHub
 git push -u origin main
 
 
